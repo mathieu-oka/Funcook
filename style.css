@@ -4,6 +4,9 @@ header {
   justify-content: space-between;
   padding-top: 15px;
 }
+header h1 {
+  color: #4A919E;
+}
 header nav {
   display: flex;
   width: 50%;
@@ -19,6 +22,33 @@ header nav ul {
 #carouselExampleCaptions img {
   object-fit: cover;
   height: 600px;
+}
+
+.favoris-title {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0;
+}
+
+.favoris-card {
+  display: flex;
+  justify-content: space-around;
+}
+.favoris-card img {
+  object-fit: cover;
+  height: 250px;
+}
+.favoris-card .card-body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: #BED3C3;
+  margin-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
