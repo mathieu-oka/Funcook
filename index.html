@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunKitchen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ 
+</head>
+<body>
+  <div class="container">
+        <header>
+            <div class="logo"><h1>FunKitchen</h1></div>
+            <nav class="link">
+                <ul>
+                    <li>Home</li>
+                    <li>Produits</li>
+                    <li>Lien 3</li>
+                    <li>Panier</li>
+                    <li>
+                        <button type="button" class="btn btn-primary position-relative">
+                          Inbox
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                          </span>
+                      </button>
+                  </li>
+                </ul>
+            </nav>
+        </header>
+
+    <div class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Produits/batteur oeuf/bo-home.jpg" class="d-block w-100" alt="batteur oeuf">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Pince batteur</h5>
+                <p>Voici une pince batteur l'atout idéal de votre cuisine</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Produits/mini scelleuse/ms-home.jpg" class="d-block w-100" alt="mini scelleuse">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mini scelleuse</h5>
+                <p>Refermer correctement votre paquet de chips</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Produits/separateur oeufs/so-home.jpg" class="d-block w-100" alt="separateur d'oeufs">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>separateur d'oeufs</h5>
+                <p>Separer vos oeufs sans soucis pour une vie sans coquilles</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>  
+
+    <div class="favoris"></div>
+
+      <div class="favoris-title"><h3>Produits favoris</h3></div>
+
+      <div class="favoris-card">
+        <div class="card" style="width: 18rem;">
+          <img src="./Produits/batteur oeuf/bo-home2.jpg" class="card-img-top" alt="batteur oeuf">
+          <div class="card-body">
+            <h5 class="card-title">Batteur oeufs</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Produits/mini scelleuse/ms-home2.jpg" class="card-img-top" alt="mini scelleuse">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Ajouter au panier</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Produits/separateur oeufs/so-home.jpg" class="card-img-top" alt="separateur oeufs">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Ajouter au panier</a>
+        </div>
+      </div>
+  </div> 
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
