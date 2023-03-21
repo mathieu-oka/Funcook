@@ -58,14 +58,18 @@ header{
       justify-content: space-around;
       flex-direction: column;
     }
-
-    
+    .btn{
+      background-color: #FEAC82;
+      color: white;
+      font-weight: bold;
+    }
 }
 
 
 footer{
   height: 400px;
   width: 100%;
-  background-color: #BED3C3;
-  margin-top: 2%;
+  background: linear-gradient(rgb(229, 238, 226),#c7d1ca,#59a18f);
+  opacity: 0,3;
+  margin-top: 5%;
 }
